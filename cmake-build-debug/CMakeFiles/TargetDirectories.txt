@@ -1,0 +1,3 @@
+/Users/sallyvann.ange/cg_project/cmake-build-debug/CMakeFiles/cg_project.dir
+/Users/sallyvann.ange/cg_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sallyvann.ange/cg_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
