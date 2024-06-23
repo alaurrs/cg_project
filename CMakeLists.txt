@@ -2,10 +2,11 @@ cmake_minimum_required(VERSION 3.28)
 project(cg_project)
 
 set(CMAKE_CXX_STANDARD 17)
-include_directories(/Users/sallyvann.ange/cg_project/libraries/include)
+include_directories(${CMAKE_SOURCE_DIR}/libraries/include)
 
-link_directories(/Users/sallyvann.ange/Downloads/glfw-3.4/build/src)
-link_directories(/Users/sallyvann.ange/cg_project/)
+# Link directories
+link_directories(${CMAKE_SOURCE_DIR}/glfw-3.4/build/src)
+link_directories(${CMAKE_SOURCE_DIR}/libraries)
 add_executable(cg_project main.cpp libraries/include/glad glad.c
         shaderClass.h
         shaderClass.cpp
